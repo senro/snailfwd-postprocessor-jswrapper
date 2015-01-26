@@ -1,0 +1,15 @@
+{
+    "name" : "snailfwd-postprocessor-jswrapper",
+    "description" : "A postprocessor plugin for fis to wrap javascript with closure or amd define.",
+    "version" : "0.0.1",
+    "author" : "senro",
+    "homepage" : "http://senro.cn",
+    "keywords": [ "snailfwd" ],
+    "main" : "index.js",
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "scripts" : {
+        "test" : "mocha test/ut --recursive"
+    }
+}
