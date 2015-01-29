@@ -7,7 +7,7 @@
 module.exports = function(content, file, conf){
     //console.log('jswrap file:'+file);
     var isInitFile=/init/g.test(file.filename);
-    if(file.isComponents&&!isInitFile || file.isComponentModules&&!isInitFile || conf.wrapAll){
+    if(file.isComponents&&!isInitFile || file.isSpmModules&&!isInitFile || conf.wrapAll){
         //wrap
 //        //默认文件名中有init的文件为非组件
 //        if(/init/g.test(file.filename)){
